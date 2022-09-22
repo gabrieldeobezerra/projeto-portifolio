@@ -45,10 +45,15 @@ a::before {
     margin-right: 10px;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 #button:hover {
     background-color: #6D7BE3;
     transform: scale(1.08);
-    box-shadow: 5px 5px 5px #000
+    box-shadow: 5px 5px 5px #000;
+    text-decoration: none;
 }
 
 #button {
@@ -59,3 +64,4 @@ a::before {
     margin-right: 0;
     transition: transform 100ms linear;
 }
+
