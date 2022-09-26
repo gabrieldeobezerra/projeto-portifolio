@@ -1,0 +1,35 @@
+.button:hover {
+    background-color: #6D7BE3;
+    transform: scale(1.08);
+    box-shadow: 5px 5px 5px #000;
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    background-color: #1F2FAB;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0 #000;
+    margin-right: 0;
+    transition: transform 100ms linear;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Fira Code", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #2D335E;
+    margin-right: 10px;
+}
